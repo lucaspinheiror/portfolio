@@ -47,37 +47,3 @@ body {
 #menu a:hover::after {
     width: 45%;   
 }
-
-main {
-    display: flex;
-    height: 86vh;
-}
-
-#conteudo {
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    margin: auto;
-    margin-top: 3em;
-}
-
-#conteudo h1 {
-    letter-spacing: 2px;
-    text-align: center;
-    font-size: 1.2em;
-    color: var(--cor-l);
-    line-height: 1.3em;
-}
-
-#estilo-nome {
-    color: var(--cor-s);
-}
-
-#conteudo p {
-    margin-top: 2em;
-    letter-spacing: 2px;
-    text-align: justify;
-    color: var(--cor-l);
-    line-height: 1.3em;
-}
-
