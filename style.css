@@ -63,7 +63,7 @@ main {
 #conteudo h1 {
     letter-spacing: 2px;
     text-align: center;
-    font-size: 1.6em;
+    font-size: 1.2em;
     color: var(--cor-l);
     line-height: 1.3em;
 }
