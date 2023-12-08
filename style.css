@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --cor-p: #49466D;
+    --cor-s: #f85151;
+    --cor-l: rgb(202, 200, 200);
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--cor-p);
+}
+
+#menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 23px 20px 20px 20px;
+}
+
+#menu a {
+    color: var(--cor-l);
+    text-decoration: none;
+    transition: 0.7s ease-out;
+    letter-spacing: 2px;
+}
+
+#menu a:hover {
+    color: var(--cor-s); 
+}
+
+#menu a::after {
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: var(--cor-s);
+    display: block;
+    transition: 0.5s ease-out;
+    margin-top: 5px;
+}
+
+#menu a:hover::after {
+    width: 45%;   
+}
+
+main {
+    display: flex;
+}
+
+#conteudo {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    margin-top: 3em;
+}
+
+#conteudo h1 {
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 1.6em;
+    color: var(--cor-l);
+    line-height: 1.3em;
+}
+
+#estilo-nome {
+    color: var(--cor-s);
+}
+
+#conteudo p {
+    margin-top: 2em;
+    letter-spacing: 2px;
+    text-align: justify;
+    font-size: 1.1em;
+    color: var(--cor-l);
+    line-height: 1.3em;
+}
+
