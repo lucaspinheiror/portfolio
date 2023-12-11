@@ -4,7 +4,7 @@
 }
 
 :root {
-    --cor-p: #49466D;
+    --cor-p: #0C0F21;
     --cor-s: #f85151;
     --cor-l: rgb(202, 200, 200);
 }
@@ -20,7 +20,8 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 23px 20px 20px 20px;
+    padding: 25px 20px 20px 20px;
+    box-shadow: 0px 1px 10px 3px rgba(255, 255, 255, 0.068);
 }
 
 #menu a {
@@ -28,10 +29,12 @@ body {
     text-decoration: none;
     transition: 0.7s ease-out;
     letter-spacing: 2px;
+    
 }
 
 #menu a:hover {
     color: var(--cor-s); 
+    transform: scale(1.05);
 }
 
 #menu a::after {
@@ -45,7 +48,7 @@ body {
 }
 
 #menu a:hover::after {
-    width: 45%;   
+    width: 45%;  
 }
 
 main {
