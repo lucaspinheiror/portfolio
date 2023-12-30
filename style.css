@@ -27,7 +27,7 @@ body {
 #menu a {
     color: var(--cor-l);
     text-decoration: none;
-    transition: 0.7s ease-out;
+    transition: 0.5s ease-out;
     letter-spacing: 2px;
     
 }

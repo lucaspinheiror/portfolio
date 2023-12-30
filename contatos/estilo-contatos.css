@@ -21,12 +21,13 @@ body {
     justify-content: space-evenly;
     align-items: center;
     padding: 23px 20px 20px 20px;
+    box-shadow: 0px 1px 10px 3px rgba(255, 255, 255, 0.068);
 }
 
 #menu a {
     color: var(--cor-l);
     text-decoration: none;
-    transition: 0.7s ease-out;
+    transition: 0.5s ease-out;
     letter-spacing: 2px;
 }
 
