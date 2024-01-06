@@ -6,4 +6,5 @@ function clickMenu(){
     } else{
         lisMenu.style.display = 'none'
     }
+
 }
