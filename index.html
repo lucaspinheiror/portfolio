@@ -4,15 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Início</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav id="menu">
-            <a href="index.html">Início</a>
-            <a href="sobre-mim/sobre-mim.html">Sobre Mim</a>
-            <a href="projetos/projetos.html">Projetos</a>
-            <a href="contatos/contato.html">Contato</a>
+        <nav id="menu">      
+            
+                <span id="logo-burguer">
+                    <span class="material-symbols-outlined" id="burguer" onclick="clickMenu()">
+                        menu
+                        </span>
+                    </span>
+          
+            <ul id="lista-menu">
+                <li><a href="index.html" class="itens-menu">Início</a></li>
+                <li><a href="sobre-mim/sobre-mim.html" class="itens-menu">Sobre Mim</a></li>
+                <li><a href="projetos/projetos.html" class="itens-menu">Projetos</a></li>
+                <li><a href="contatos/contato.html" class="itens-menu">Contato</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -22,5 +32,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non error, ullam consectetur numquam, laboriosam amet obcaecati distinctio nam adipisci ducimus saepe nulla voluptates quia quis voluptatem, cum suscipit perspiciatis deleniti.</p>
         </div>    
     </main>
+
+    <script src="script.js"></script>
 </body>
 </html>

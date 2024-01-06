@@ -16,35 +16,39 @@ body {
     background-color: var(--cor-p);
 }
 
+
 #menu {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 23px 20px 20px 20px;
+    padding: 10px;
     box-shadow: 0px 1px 10px 3px rgba(255, 255, 255, 0.068);
 }
 
-#menu a {
+#menu #logo-burguer {
+    display: flex;
+    justify-content: end;
+    color: var(--cor-l);
+}
+
+#burguer {
+    cursor: pointer;
+}
+
+#lista-menu {
+    list-style-type: none;
+    text-align: center;
+    display: none;
+}
+
+#lista-menu li {
+    padding: 13px 0px 13px 0px;
+}
+
+.itens-menu {
     color: var(--cor-l);
     text-decoration: none;
     transition: 0.5s ease-out;
-    letter-spacing: 2px;
+    letter-spacing: 2px;   
 }
 
-#menu a:hover {
+.itens-menu:hover {
     color: var(--cor-s); 
-}
-
-#menu a::after {
-    content: "";
-    width: 0;
-    height: 3px;
-    background-color: var(--cor-s);
-    display: block;
-    transition: 0.5s ease-out;
-    margin-top: 5px;
-}
-
-#menu a:hover::after {
-    width: 45%;   
 }
