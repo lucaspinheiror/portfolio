@@ -19,21 +19,4 @@
     .itens-menu {
         letter-spacing: 3px;
     }
-
-    #conteudo {
-        margin: 7em 0em 0em 7em;
-        width: 550px;
-    }
-
-    #conteudo h1 {
-        text-align: left;
-        font-size: 2em;
-        letter-spacing: 3px;
-    }
-
-    #conteudo p {
-        font-size: 1.1em;
-        letter-spacing: 3px;
-    }
-
 }

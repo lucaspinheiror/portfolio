@@ -21,7 +21,6 @@ body {
 #menu {
     padding: 18px;
     box-shadow: 0px 1px 10px 3px rgba(255, 255, 255, 0.068);
-    position: relative;
 }
 
 #menu #logo-burguer {
@@ -105,6 +104,10 @@ body {
     background-color: var(--cor-s);
     display: block;
     margin-top: 12px;
+}
+
+#div-titulo {
+    width: 100%;
 }
 
 #conteudo h1 {

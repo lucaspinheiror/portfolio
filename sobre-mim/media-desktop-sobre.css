@@ -1,0 +1,36 @@
+@media screen and (min-width: 992px){
+    #menu {
+        padding: 20px;
+    }
+    
+    #burguer {
+        display: none;
+    }
+
+    #lista-menu {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #lista-menu li {
+        padding: 0px;       
+    }
+
+    .itens-menu {
+        letter-spacing: 3px;
+    }
+
+    .itens-menu::after {
+        content: "";
+        width: 0;
+        height: 3px;
+        background-color: var(--cor-s);
+        display: block;
+        transition: 0.5s ease-out;
+        margin-top: 5px;
+    }
+
+    .itens-menu:hover::after {
+        width: 45%; 
+    }
+}
