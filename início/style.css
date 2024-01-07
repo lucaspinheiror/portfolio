@@ -93,7 +93,7 @@ body {
 /* CONFIGURAÇÕES CONTEÚDO */
 
 #conteudo {
-    width: 70%;
+    width: 320px;
     margin: auto;
     margin-top: 7em;
 }
@@ -101,16 +101,16 @@ body {
 #conteudo::after {
     content: '';
     width: 45%;
-    height: 2px;
+    height: 3px;
     background-color: var(--cor-s);
     display: block;
-    margin-top: 10px;
+    margin-top: 12px;
 }
 
 #conteudo h1 {
     letter-spacing: 2px;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.4em;
     color: var(--cor-l);
     line-height: 1.5em;
 }
@@ -120,7 +120,7 @@ body {
 }
 
 #conteudo p {
-    font-size: 1.05em;
+    font-size: 1.1em;
     margin-top: 2em;
     letter-spacing: 2px;
     text-align: justify;
