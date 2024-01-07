@@ -5,6 +5,7 @@ function clickMenu() {
     lisMenu.classList.toggle('menu-hidden');
   }
 
+
 /*function clickMenu(){
     let lisMenu = document.querySelector('#lista-menu')
 
