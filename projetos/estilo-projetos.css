@@ -18,7 +18,7 @@ body {
 
 
 #menu {
-    padding: 10px;
+    padding: 18px;
     box-shadow: 0px 1px 10px 3px rgba(255, 255, 255, 0.068);
 }
 
@@ -30,13 +30,18 @@ body {
 
 #burguer {
     cursor: pointer;
+    font-size: 27px;
 }
 
 #lista-menu {
     list-style-type: none;
     text-align: center;
+}
+
+.menu-hidden {
     display: none;
 }
+
 
 #lista-menu li {
     padding: 13px 0px 13px 0px;

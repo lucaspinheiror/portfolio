@@ -1,4 +1,11 @@
-function clickMenu(){
+function clickMenu() {
+    let lisMenu = document.querySelector('#lista-menu');
+  
+   
+    lisMenu.classList.toggle('menu-hidden');
+  }
+
+/*function clickMenu(){
     let lisMenu = document.querySelector('#lista-menu')
 
     if(lisMenu.style.display == 'none'){
@@ -7,4 +14,4 @@ function clickMenu(){
         lisMenu.style.display = 'none'
     }
 
-}
+} */
