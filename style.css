@@ -36,7 +36,7 @@ body {
 
 #lista-menu {
     list-style-type: none;
-    text-align: center;
+    text-align: center;  
 }
 
 .menu-hidden {
@@ -56,6 +56,18 @@ body {
 
 .itens-menu:hover {
     color: var(--cor-s); 
+}
+
+.click {
+    color: var(--cor-s);
+    text-decoration: none;
+    letter-spacing: 2px;
+
+    content: "";
+    display: block;
+    height: 3px;
+    width: 45%; 
+    margin-top: 5px;
 }
 
 
@@ -116,6 +128,7 @@ body {
     font-size: 1.4em;
     color: var(--cor-l);
     line-height: 1.5em;
+    transition: .5s ease;
 }
 
 #estilo-nome {
@@ -129,5 +142,6 @@ body {
     text-align: justify;
     color: var(--cor-l);
     line-height: 1.5em;
+    transition: .5s ease;
 }
 
