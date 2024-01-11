@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --cor-pr: rgb(12, 15, 33);
+    --cor-sc: rgb(228, 63, 63);
+    --cor-lt: rgba(216, 216, 216, 0.87);
+}
+
+body {
+    background-color: var(--cor-pr);
+    font-family: 'Poppins', sans-serif;
+    width: 100vw;
+    height: 100vh; 
+}
+
+#menu {
+    background-color: blanchedalmond;
+    padding: 8px 10px;
+}
+
+#logo {
+    text-align: right;      /*Caixa em volta da logo*/
+}
+
+#burguer {
+    font-size: 29px;    
+    cursor: pointer;    /*Logo*/
+}
+
+#lista-nav {
+    background-color: black;
+    text-align: center;
+}
+
+#lista-nav li {
+    padding: 10px;
+}
+
+#lista-nav li a {
+    text-decoration: none;
+    color: var(--cor-lt);
+}
+
+#lista-nav li a:focus{
+    color: var(--cor-sc);
+}
