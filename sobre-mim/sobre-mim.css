@@ -69,3 +69,26 @@ body {
 #lista-nav ul li a:hover {
     background-color: rgba(0, 0, 0, 0.329);
 }
+
+main {
+    width: 100vw;
+}
+
+#div-titulo h1 {
+    margin: auto;
+    position: relative;
+    width: 170px;
+    color: var(--cor-lt);
+    margin-top: 30px;
+    z-index: -1;
+}
+
+h1::after {
+    background-color: var(--cor-sc);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: '';
+    width: 45%;
+    height: 3px;
+}
