@@ -34,8 +34,8 @@ body {
 }
 
 #lista-nav {
-    background-color: rgba(0, 0, 0, 0.295);
-    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7px);
     position: absolute;
     top: 50px;
     left: 0px;
@@ -67,7 +67,7 @@ body {
 }
 
 #lista-nav ul li a:hover {
-    background-color: rgba(0, 0, 0, 0.329);
+    background-color: rgba(0, 0, 0, 0.500);
 }
 
 #div-conteudo {
@@ -86,4 +86,26 @@ body {
 #estilo-nome {
     color: var(--cor-sc);
     font-size: 1.1em;
+}
+
+#div-paragrafo {
+    display: flex;
+    justify-content: center;
+}
+
+#div-paragrafo p {
+    color: var(--cor-lt);
+    text-align: justify;
+    letter-spacing: 2px;
+    margin-top: 2em;
+    width: 340px;
+}
+
+#div-paragrafo p::after {
+    background-color: var(--cor-sc);
+    display: block;
+    content: '';
+    width: 45%;
+    height: 3px;
+    margin-top: 7px;
 }
