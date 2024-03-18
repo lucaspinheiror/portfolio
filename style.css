@@ -21,7 +21,7 @@ body {
 }
 
 header {
-    padding: 10px 10px 3px;
+    padding: 10px 15px 3px 0px;
     box-shadow: 0px 0px  5px 3px rgba(216, 216, 216, 0.178);
 }
 
@@ -32,6 +32,7 @@ header {
 #burguer span {
     cursor: pointer;  
     color: var(--cor-lt);
+    font-size: 28px;
 }
 
 header ul {
@@ -69,11 +70,15 @@ header ul li a:hover {
 
 /*-----*/
 
+main {
+
+}
+
 main section {
-    margin: 8em auto 0px auto;
+    margin: 10em auto 0px auto;
     text-align: center;
-    width: 350px;
     letter-spacing: 2px;
+    padding: 0px 30px;
 }
 
 main section::after {
@@ -88,12 +93,12 @@ main section::after {
 main section h2 {
     color: var(--cor-lt);
     text-align: center;
-    font-size: 23px;
+    font-size: 21px;
 }
 
 #decoracao {
     color: var(--cor-sc);
-    font-size: 28px;
+    font-size: 27px;
 }
 
 main section p {
@@ -101,6 +106,7 @@ main section p {
     text-align: center;
     margin-top: 1.5em;
     margin-trim: 1em;
+    line-height: 30px;
 }
 
 
