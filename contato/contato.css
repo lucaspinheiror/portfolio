@@ -14,7 +14,6 @@
 body {
     background-color: var(--cor-pr);
     font-family: 'Poppins', sans-serif;
-    width: 100vw;
     height: 100vh; 
 }
 
@@ -94,8 +93,8 @@ h1::after {
     height: 3px;
 }
 
-#div-icons {
-    margin-top: 5em;
+#container-icons {
+    margin-top: 6em;
     display: flex;
     flex-direction: column;
 }
@@ -114,13 +113,4 @@ h1::after {
 .icons {
     font-size: 4em;
     color: var(--cor-lt);
-}
-
-.icons::after {
-    background-color: var(--cor-sc);
-    display: block;
-    content: '';
-    width: 45%;
-    height: 3px;
-    margin-top: 7px;
 }

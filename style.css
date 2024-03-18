@@ -3,6 +3,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 :root {
@@ -11,7 +12,103 @@
     --cor-lt: rgba(216, 216, 216, 0.87);
 }
 
+
 body {
+    background-color: var(--cor-pr);
+    font-family: 'Poppins', sans-serif;
+    width: 100vw;
+    height: 100vh; 
+}
+
+header {
+    padding: 10px 10px 3px;
+    box-shadow: 0px 0px  5px 3px rgba(216, 216, 216, 0.178);
+}
+
+#burguer {
+    text-align: right;
+}
+
+#burguer span {
+    cursor: pointer;  
+    color: var(--cor-lt);
+}
+
+header ul {
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+    position: absolute;
+    top: 44px;
+    height: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    list-style: none;
+    visibility: hidden;
+    overflow: hidden;
+    transition: .6s ease;
+}
+
+header ul.abrir {
+    visibility: visible;
+    height: 204px;
+}
+
+header ul li a {
+    display: block;
+    padding: 13px 0px 13px 0px;
+    color: var(--cor-lt);
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: .6s ease;
+}
+
+header ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.500);
+}
+
+/*-----*/
+
+main section {
+    margin: 8em auto 0px auto;
+    text-align: center;
+    width: 350px;
+    letter-spacing: 2px;
+}
+
+main section::after {
+    background-color: var(--cor-sc);
+    display: block;
+    content: '';
+    width: 45%;
+    height: 3px;
+    margin-top: 10px;
+}
+
+main section h2 {
+    color: var(--cor-lt);
+    text-align: center;
+    font-size: 23px;
+}
+
+#decoracao {
+    color: var(--cor-sc);
+    font-size: 28px;
+}
+
+main section p {
+    color: var(--cor-lt);
+    text-align: center;
+    margin-top: 1.5em;
+    margin-trim: 1em;
+}
+
+
+
+
+
+
+/*body {
     background-color: var(--cor-pr);
     font-family: 'Poppins', sans-serif;
     width: 100vw;
@@ -24,12 +121,12 @@ body {
 }
 
 #logo {
-    text-align: right;      /*Caixa em volta da logo*/
+    text-align: right;      Caixa em volta da logo
 }
 
 #burguer {
     font-size: 29px;    
-    cursor: pointer;        /*Logo*/
+    cursor: pointer;        Logo
     color: var(--cor-lt);    
 }
 
@@ -70,6 +167,13 @@ body {
     background-color: rgba(0, 0, 0, 0.500);
 }
 
+
+
+
+
+
+
+
 #div-conteudo {
     margin-top: 5em;
 }
@@ -109,3 +213,4 @@ body {
     height: 3px;
     margin-top: 7px;
 }
+*/
