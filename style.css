@@ -32,7 +32,7 @@ header {
 #burguer span {
     cursor: pointer;  
     color: var(--cor-lt);
-    font-size: 28px;
+    font-size: 29px;
 }
 
 header ul {
