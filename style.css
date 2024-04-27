@@ -70,24 +70,12 @@ header ul li a:hover {
 
 /*-----*/
 
-main {
-
-}
 
 main section {
-    margin: 10em auto 0px auto;
+    margin: 5em auto 0px auto;
     text-align: center;
     letter-spacing: 2px;
     padding: 0px 30px;
-}
-
-main section::after {
-    background-color: var(--cor-sc);
-    display: block;
-    content: '';
-    width: 45%;
-    height: 3px;
-    margin-top: 10px;
 }
 
 main section h2 {
@@ -114,109 +102,5 @@ main section p {
 
 
 
-/*body {
-    background-color: var(--cor-pr);
-    font-family: 'Poppins', sans-serif;
-    width: 100vw;
-    height: 100vh; 
-}
-
-#menu {
-    padding: 10px 10px 3px;
-    box-shadow: 0px 0px  5px 3px rgba(216, 216, 216, 0.178);
-}
-
-#logo {
-    text-align: right;      Caixa em volta da logo
-}
-
-#burguer {
-    font-size: 29px;    
-    cursor: pointer;        Logo
-    color: var(--cor-lt);    
-}
-
-#lista-nav {
-    background-color: rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(7px);
-    position: absolute;
-    top: 50px;
-    left: 0px;
-    width: 100%;
-    height: 0;
-    visibility: hidden;
-    transition: .6s ease;
-    overflow: hidden;
-    text-align: center;
-}
-
-#lista-nav.abrir {
-    visibility: visible;
-    height: 196px;
-}
-
-#lista-nav ul li {
-    list-style-type: none;
-}
-
-#lista-nav ul li a {
-    text-decoration: none;
-    color: var(--cor-lt);
-    position: relative;
-    letter-spacing: 2px;
-    transition: .6s ease;
-    display: block;
-    padding: 12px;
-}
-
-#lista-nav ul li a:hover {
-    background-color: rgba(0, 0, 0, 0.500);
-}
 
 
-
-
-
-
-
-
-#div-conteudo {
-    margin-top: 5em;
-}
-
-#div-conteudo h2 {
-    text-align: center;
-    font-size: 1.5em;
-    margin: auto;
-    width: 355px;
-    color: var(--cor-lt);
-    letter-spacing: 2px;
-}
-
-#estilo-nome {
-    color: var(--cor-sc);
-    font-size: 1.1em;
-}
-
-#div-paragrafo {
-    display: flex;
-    justify-content: center;
-}
-
-#div-paragrafo p {
-    color: var(--cor-lt);
-    text-align: justify;
-    letter-spacing: 2px;
-    margin-top: 2em;
-    width: 340px;
-}
-
-#div-paragrafo p::after {
-    background-color: var(--cor-sc);
-    display: block;
-    content: '';
-    width: 45%;
-    height: 3px;
-    margin-top: 7px;
-}
-*/

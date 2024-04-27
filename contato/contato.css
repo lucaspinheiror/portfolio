@@ -66,3 +66,22 @@ header ul li a:hover {
     background-color: rgba(0, 0, 0, 0.500);
 }
 
+/*---------------------------------------------*/
+
+#titulo {
+    text-align: center;
+    margin-top: 3em;
+    color: var(--cor-lt);
+}
+
+#titulo h1 {
+    display: inline-block;
+}
+
+#titulo h1::after {
+    background-color: var(--cor-sc);
+    display: block;
+    content: '';
+    width: 45%;
+    height: 3px;
+}
