@@ -17,6 +17,7 @@ body {
     font-family: 'Poppins', sans-serif;
     width: 100vw;
     height: 100vh; 
+    letter-spacing: 1px;
 }
 
 
@@ -101,7 +102,7 @@ section {
 
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center
 
 }
 
@@ -117,33 +118,54 @@ section {
 }
 
 .footer-sections {
-    background-color: var(--cor-pr);
+    background-color: rgba(12, 15, 33, 0.952);
+
     width: 100%;
     display: flex;
     flex-direction: row;
     height: 60px;
 }
 
-.div-botoes {
+.div-botao {
     display: flex;
     align-items: center;
     width: 50%;
-    margin-left: 20px;
+    margin-left: 18px;
 }
 
-.div-botoes button {
+.div-botao a {
     background-color: var(--cor-pr);
-    padding: 10px 15px;
-    border-radius: 7px;
-}
-
-.div-botoes button a {
+    border: 1px solid var(--cor-lt);
+    border-radius: 2px;
     text-decoration: none;
     color: var(--cor-lt);
+    padding:  8px 20px;
+    transition: .4s;
+}
+
+.div-botao a:hover {
+    background-color: var(--cor-lt);
+    color: var(--cor-pr);
+    border: none;
 }
 
 .tec {
     display: flex;
     align-items: center;
+    justify-content: right;
+    margin-right: 20px;
     width: 50%;
+    gap: 10px;
+}
+
+.fa-brands {
+    font-size: 35px;
+}
+
+.fa-html5 {
+    color: #E5532D;
+}
+
+.fa-css3-alt {
+    color: #3D9DD7;
 }
