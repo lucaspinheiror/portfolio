@@ -87,4 +87,50 @@ header ul li a:hover {
 }
 
 
+#container-hab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px 0px;
+
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.hab {
+    background-color: rgba(17, 21, 43, 0.952);
+    display: flex;
+    align-items: center;
+    width: 340px;
+    height: 40px;
+
+    padding: 5px;  
+
+    box-shadow: 0px 3px 13px 1px rgba(216, 216, 216, 0.11);
+}
+
+.hab p {
+    margin-left: 10px;
+    color: var(--cor-lt);
+    letter-spacing: 1.5px;
+}
+
+.fa-brands {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.fa-html5 {
+    color: #E5532D;
+}
+
+.fa-css3-alt {
+    color: #3D9DD7;
+}
+
+.fa-js {
+    color: #ecda1d;
+}
+
+
 
