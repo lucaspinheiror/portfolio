@@ -85,3 +85,27 @@ header ul li a:hover {
     width: 45%;
     height: 3px;
 }
+
+
+#container-icons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+
+
+    margin-top: 60px;
+    padding: 15px;
+}
+
+#container-icons div {
+    display: flex;
+    justify-content: space-around;
+
+    width: 100%;
+}
+
+#container-icons div .icons {
+    font-size: 68px;
+    color: var(--cor-lt);
+}
