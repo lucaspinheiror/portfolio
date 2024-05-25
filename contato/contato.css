@@ -109,3 +109,17 @@ header ul li a:hover {
     font-size: 68px;
     color: var(--cor-lt);
 }
+
+/*-----footer-----*/
+
+#container-img {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+#container-img img {
+    width: 80%;
+    max-width: 500px;
+    margin-top: 10%;
+}
