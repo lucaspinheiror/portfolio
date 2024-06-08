@@ -14,8 +14,6 @@
 body {
     background-color: var(--cor-pr);
     font-family: 'Poppins', sans-serif;
-    width: 100vw;
-    height: 100vh; 
 }
 
 header {
@@ -111,15 +109,16 @@ header ul li a:hover {
 }
 
 /*-----footer-----*/
-
 #container-img {
     display: flex;
     justify-self: center;
     align-items: center;
+    margin: auto;
 }
 
 #container-img img {
     width: 80%;
     max-width: 500px;
     margin-top: 10%;
+    margin: 10% auto 50px auto;
 }

@@ -14,9 +14,7 @@
 
 body {
     background-color: var(--cor-pr);
-    font-family: 'Poppins', sans-serif;
-    width: 100vw;
-    height: 100vh; 
+    font-family: 'Poppins', sans-serif; 
     letter-spacing: 1px;
 }
 
@@ -137,14 +135,14 @@ section {
     border-left: 1px solid var(--cor-lt);
 }
 
-.botao {
+.botao-acessar {
     display: flex;
     align-items: center;
     width: 50%;
     margin-left: 18px;
 }
 
-.botao a {
+.botao-acessar a {
     background-color: var(--cor-pr);
     border-radius: 5px;
     text-decoration: none;
@@ -153,13 +151,13 @@ section {
     transition: .5s;
 }
 
-.botao a:hover {
+.botao-acessar a:hover {
     background-color: var(--cor-lt);
     color: var(--cor-pr);
     border: none;
 }
 
-.tec {
+.tecnologias {
     display: flex;
     align-items: center;
     justify-content: right;
@@ -178,4 +176,13 @@ section {
 
 .fa-css3-alt {
     color: #3D9DD7;
+}
+
+.fa-js {
+    color: #ECDA1D;
+}
+
+footer {
+    background-color: var(--cor-pr);
+    height: 50px;
 }

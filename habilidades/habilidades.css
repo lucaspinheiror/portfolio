@@ -101,7 +101,8 @@ header ul li a:hover {
     background-color: rgba(17, 21, 43, 0.952);
     display: flex;
     align-items: center;
-    width: 340px;
+    gap: 30px;
+    min-width: 340px;
     height: 40px;
 
     padding: 7px 5px;  
@@ -110,14 +111,13 @@ header ul li a:hover {
 }
 
 .hab p {
-    margin-left: 10px;
     color: var(--cor-lt);
     letter-spacing: 1.5px;
 }
 
 .fa-brands {
     font-size: 38px;
-    margin-left: 10px;
+    margin-left: 12px;
 }
 
 .fa-html5 {
