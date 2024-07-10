@@ -64,19 +64,19 @@ header ul li a:hover {
     background-color: rgba(0, 0, 0, 0.500);
 }
 
-/*---------------------------------------------*/
+/* Corpo */
 
-#titulo {
+#titulo-principal {
     text-align: center;
     margin-top: 3em;
+}
+
+#titulo-principal h1 {
+    display: inline-block;
     color: var(--cor-lt);
 }
 
-#titulo h1 {
-    display: inline-block;
-}
-
-#titulo h1::after {
+#titulo-principal h1::after {
     background-color: var(--cor-sc);
     display: block;
     content: '';
@@ -108,7 +108,8 @@ header ul li a:hover {
     color: var(--cor-lt);
 }
 
-/*-----footer-----*/
+/* Footer */
+
 #container-img {
     display: flex;
     justify-self: center;

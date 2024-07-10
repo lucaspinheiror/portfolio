@@ -1,7 +1,7 @@
 
 
 function clickMenu(){
-    const listaAnimacao = document.querySelector('#ul-menu')
+    const listaAnimacao = document.querySelector('#ul-menu');
 
-    listaAnimacao.classList.toggle('abrir')
+    listaAnimacao.classList.toggle('abrir');
 }
