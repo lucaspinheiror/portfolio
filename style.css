@@ -68,7 +68,7 @@ header ul li a:hover {
     background-color: rgba(0, 0, 0, 0.500);
 }
 
-/*-----*/
+/* Informações sobre mim */
 
 section {
     width: 87%;
@@ -84,12 +84,10 @@ section {
 .decoracao {
     color: var(--cor-sc);
     font-size: 30px;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 #dev-web {
     color: var(--cor-sc);
-    font-family: 'Courier New', Courier, monospace;
 }
 
 #info {
