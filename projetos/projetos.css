@@ -133,7 +133,7 @@ header ul li a:hover {
 
 .footer-projetos {
     display: flex;
-    padding: 8px;
+    padding: 14px 10px;
 }
 
 .container-btn {
@@ -143,7 +143,7 @@ header ul li a:hover {
 .btn-acessar {
     background-color: rgba(23, 24, 29, 0.438);
     border: 1px solid var(--cor-lt);
-    padding: 9px 13px;
+    padding: 11px 17px;
     cursor: pointer;
     color: var(--cor-lt);
     border-radius: 3px;
@@ -160,7 +160,7 @@ header ul li a:hover {
 
 .icones {
     text-align: right;
-    font-size: 27px;
+    font-size: 32px;
 }
 
 .fa-html5 {
