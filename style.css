@@ -77,22 +77,23 @@ section {
 }
 
 #titulo-nome {
-    font-size: 23px;
+    font-size: 28px;
     color: var(--cor-lt);
 }
 
-.decoracao {
+#decoracao {
     color: var(--cor-sc);
-    font-size: 30px;
+    font-size: 36px;
 }
 
 #dev-web {
     color: var(--cor-sc);
+    font-size: 14px;
 }
 
 #info {
     letter-spacing: 1px;
-    margin-top: 5px;
+    margin-top: 15px;
     color: var(--cor-lt);
 }
 
