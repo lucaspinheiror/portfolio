@@ -7,7 +7,7 @@
 
 :root {
     --cor-pr: rgb(12, 15, 33);
-    --cor-sc: rgb(228, 63, 63);
+    --cor-sc: #45cff1;
     --cor-lt: rgba(216, 216, 216, 0.87);
 }
 
@@ -66,7 +66,9 @@ header ul li a:hover {
     background-color: rgba(0, 0, 0, 0.500);
 }
 
-/*-----*/
+/* Corpo */
+
+/* Título Principal */
 
 #titulo-principal {
     text-align: center;
@@ -86,38 +88,36 @@ header ul li a:hover {
     height: 3px;
 }
 
+/* Container Habilidades */
 
 #container-hab {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 40px 0px;
+    gap: 30px;
 
-    margin-top: 30px;
-    padding: 10px;
+    margin-top: 5em;
 }
 
-.hab {
-    background-color: rgba(17, 21, 43, 0.952);
+.habilidades {
+    background-color: rgb(20, 24, 46);
     display: flex;
     align-items: center;
     gap: 30px;
-    min-width: 340px;
-    height: 40px;
-
-    padding: 7px 5px;  
-
-    box-shadow: 0px 3px 13px 1px rgba(216, 216, 216, 0.11);
+    padding: 8px;
+    
+    width: 320px;  
 }
 
-.hab p {
+.habilidades p {
     color: var(--cor-lt);
-    letter-spacing: 1.5px;
+    font-weight: bold;
+    font-size: 18px;
 }
+
 
 .fa-brands {
     font-size: 38px;
-    margin-left: 12px;
 }
 
 .fa-html5 {

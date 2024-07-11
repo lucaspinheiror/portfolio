@@ -8,7 +8,7 @@
 
 :root {
     --cor-pr: rgb(12, 15, 33);
-    --cor-sc: rgb(228, 63, 63);
+    --cor-sc: #45cff1;
     --cor-lt: rgba(216, 216, 216, 0.87);
 }
 
@@ -120,8 +120,8 @@ header ul li a:hover {
 }
 
 .projetos {
-    box-shadow: 0px 8px 15px 1px rgba(255, 255, 255, 0.082);
-    border: 1px solid var(--cor-lt);
+    box-shadow: 0px 8px 15px 3px #45cff123;
+    border: 1px solid var(--cor-sc);
 }
 
 .img-projetos {
@@ -141,8 +141,8 @@ header ul li a:hover {
 }
 
 .btn-acessar {
-    background-color: rgba(23, 24, 29, 0.438);
-    border: 1px solid var(--cor-lt);
+    background-color: rgb(20, 24, 46);
+    border: 1px solid var(--cor-sc);
     padding: 11px 17px;
     cursor: pointer;
     color: var(--cor-lt);
