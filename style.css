@@ -70,36 +70,33 @@ header ul li a:hover {
 
 /*-----*/
 
-
-main section {
-    margin: 5em auto 0px auto;
-    text-align: center;
-    letter-spacing: 2px;
-    padding: 0px 30px;
+section {
+    width: 87%;
+    max-width: 600px;
+    margin: 4em auto;
 }
 
-main section h2 {
+#titulo-nome {
+    font-size: 23px;
     color: var(--cor-lt);
-    text-align: center;
-    font-size: 21px;
 }
 
-#decoracao {
+.decoracao {
     color: var(--cor-sc);
-    font-size: 27px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-main section p {
+#dev-web {
+    color: var(--cor-sc);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#info {
+    letter-spacing: 1px;
+    margin-top: 5px;
     color: var(--cor-lt);
-    text-align: center;
-    margin-top: 1.5em;
-    margin-trim: 1em;
-    line-height: 30px;
 }
-
-
-
-
 
 
 
