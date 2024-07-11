@@ -1,5 +1,8 @@
+/* Fonte Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
 
+/* Fonte Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -11,7 +14,6 @@
     --cor-sc: rgb(228, 63, 63);
     --cor-lt: rgba(216, 216, 216, 0.87);
 }
-
 
 body {
     background-color: var(--cor-pr);
@@ -84,11 +86,13 @@ section {
 #decoracao {
     color: var(--cor-sc);
     font-size: 36px;
+    font-family: "Roboto", sans-serif;
 }
 
 #dev-web {
     color: var(--cor-sc);
     font-size: 14px;
+    font-family: "Roboto", sans-serif;
 }
 
 #info {
