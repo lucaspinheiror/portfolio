@@ -14,8 +14,6 @@
 body {
     background-color: var(--cor-pr);
     font-family: 'Poppins', sans-serif;
-    width: 100vw;
-    height: 100vh; 
 }
 
 header {
@@ -96,7 +94,7 @@ header ul li a:hover {
     align-items: center;
     gap: 30px;
 
-    margin-top: 5em;
+    margin-top: 3em;
 }
 
 .habilidades {
@@ -107,6 +105,10 @@ header ul li a:hover {
     padding: 8px;
     
     width: 320px;  
+
+    border-left: 1px solid var(--cor-sc);
+    border-bottom: 1px solid var(--cor-sc); 
+    box-shadow: -4px 6px 7px 0px #45cff11c;
 }
 
 .habilidades p {

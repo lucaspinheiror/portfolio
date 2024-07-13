@@ -18,8 +18,6 @@
 body {
     background-color: var(--cor-pr);
     font-family: 'Poppins', sans-serif;
-    width: 100vw;
-    height: 100vh; 
 }
 
 header {
@@ -75,7 +73,7 @@ header ul li a:hover {
 section {
     width: 87%;
     max-width: 600px;
-    margin: 5em auto;
+    margin: 5em auto 0em;
 }
 
 #titulo-nome {
@@ -99,6 +97,17 @@ section {
     letter-spacing: 1px;
     margin-top: 15px;
     color: var(--cor-lt);
+}
+
+#container-img {
+    text-align: center;
+    margin: 2em 0 2em 1em;
+}
+
+#img-perfil {
+    /* width: 310px; */
+    width: 75%;
+    max-width: 500px;
 }
 
 @media screen and (min-width:414px){
