@@ -6,8 +6,9 @@
 }
 
 :root {
-    --cor-pr: rgb(12, 15, 33);
-    --cor-sc: #45cff1;
+    --cor-pr: #110920;
+    --cor-sc: #03C1EF;
+    --cor-pr-detalhes: #292237;
     --cor-lt: rgba(216, 216, 216, 0.87);
 }
 
@@ -98,7 +99,7 @@ header ul li a:hover {
 }
 
 .habilidades {
-    background-color: rgb(20, 24, 46);
+    background-color: var(--cor-pr-detalhes);
     display: flex;
     align-items: center;
     gap: 30px;
@@ -134,6 +135,15 @@ header ul li a:hover {
     color: #ecda1d;
 }
 
+#container-img {
+    text-align: center;
+    padding-top: 2em;
+}
+
+img {
+    max-width: 600px;
+    width: 80%;
+}
 /*----------------------------------*/
 
 
