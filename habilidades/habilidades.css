@@ -32,7 +32,7 @@ header {
     font-size: 29px;
 }
 
-header ul {
+header #menu-mobile {
     background-color: rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(8px);
     position: absolute;
@@ -47,12 +47,12 @@ header ul {
     transition: .6s ease;
 }
 
-header ul.abrir {
+header #menu-mobile.abrir {
     visibility: visible;
     height: 204px;
 }
 
-header ul li a {
+header #menu-mobile li a {
     display: block;
     padding: 13px 0px 13px 0px;
     color: var(--cor-lt);
@@ -61,7 +61,7 @@ header ul li a {
     transition: .6s ease;
 }
 
-header ul li a:hover {
+header #menu-mobile li a:hover {
     background-color: rgba(0, 0, 0, 0.500);
 }
 
@@ -85,6 +85,13 @@ header ul li a:hover {
     content: '';
     width: 45%;
     height: 3px;
+}
+
+/* Desktop container */
+
+#container-desktop {
+    max-width: 1440px;
+    margin: auto;
 }
 
 /* Container Habilidades */
@@ -137,13 +144,60 @@ header ul li a:hover {
 
 #container-img {
     text-align: center;
-    padding-top: 2em;
 }
 
 img {
-    max-width: 600px;
-    width: 80%;
+    width: 340px;
+    margin-top: 2em;
 }
-/*----------------------------------*/
 
+@media screen and (min-width: 992px){
+    /* #container-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    } */
 
+    #container-hab {
+        align-items: start;
+    }
+
+    .habilidades {
+        margin-left: 5em;
+    }
+
+    #container-img {
+        text-align: right;
+    }
+
+    img {
+        width: 600px;
+        margin-right: 4em;
+    }
+
+}
+
+@media  screen and (min-width: 1240px) {
+    .habilidades {
+        margin-left: 7em;
+        width: 420px;
+    }
+
+    img {
+        margin-right: 5em;
+        width: 650px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    
+    .habilidades {
+        margin-left: 2em;
+    }
+
+    img {
+        width: 750px;
+        margin-top: -2em;
+        margin-right: 2em;
+    }
+
+}
