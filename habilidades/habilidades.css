@@ -32,6 +32,10 @@ header {
     font-size: 29px;
 }
 
+#menu-desktop {
+    display: none;
+}
+
 header #menu-mobile {
     background-color: rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(8px);
@@ -64,6 +68,8 @@ header #menu-mobile li a {
 header #menu-mobile li a:hover {
     background-color: rgba(0, 0, 0, 0.500);
 }
+
+
 
 /* Corpo */
 
@@ -152,10 +158,44 @@ img {
 }
 
 @media screen and (min-width: 992px){
-    /* #container-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    } */
+        header {
+            padding: 14px 0;
+        } 
+    
+        #menu-desktop {
+            display: flex;
+            justify-content: space-evenly;
+            list-style-type: none;
+            max-width: 1440px;
+            margin: auto;
+        }
+    
+        #menu-desktop a {
+            text-decoration: none;
+            color: var(--cor-lt);
+            transition: .4s ease; 
+        }
+    
+        #menu-desktop a:hover{
+            color: var(--cor-sc);
+        }
+    
+        #menu-desktop a::after {
+            background-color: var(--cor-sc);
+            display: block;
+            content: '';
+            width: 0;
+            height: 3px;
+            transition: .4s ease;
+        }
+    
+        #menu-desktop a:hover::after {
+            width: 45%;
+        }
+    
+        #burguer {
+            display: none;
+        }
 
     #container-hab {
         align-items: start;
